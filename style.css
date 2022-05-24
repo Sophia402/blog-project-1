@@ -1,0 +1,94 @@
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:solid;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: rgb(138, 59, 59);
+    color: rgb(58, 65, 129);
+  }
+    /* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+
+  /* Create three equal columns that float next to each other */
+.column {
+    float: left;
+    width: 30%;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "string";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+nav{ 
+  background-color:WHITE;
+}
+
+
+ 
+.wrapper {
+   display: grid;
+   grid-template: (3, 1fr );
+   /* grid-template-areas: ( 3, 1fr);
+   grid-area: ( 3,1fr); */
+   gap: 19px;
+   grid-auto-rows:minmax ( 100px,auto);
+  }
+   h2{
+    color: aqua;
+    font-size: xx-large;
+    text-align: start;
+  }
+  h1{
+
+    color: violet;
+    font-size: medium;
+    text-align: center;
+  }
+  h3{
+    color: rgb(23, 81, 206);
+    font-size: medium;
+    text-align: start;
+  }
+
+img{
+  max-width: 200px
+  
+
+
+}
+
+

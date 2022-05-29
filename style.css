@@ -1,4 +1,6 @@
-
+@import 'nav.css';
+@import 'figure.css';
+@import 'button.css';
 
     /* Header/Blog Title */
 .header {
@@ -36,8 +38,6 @@
 nav{ 
   background-color:WHITE;
 }
-
-
  
 .wrapper {
    display: grid;
